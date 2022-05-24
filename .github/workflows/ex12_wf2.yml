@@ -11,3 +11,9 @@ on:
     workflows: ["dispatch workflow"]
     type:
       - complete
+jobs:
+  say_hi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: msg
+        run: echo "Invoked by call_workflow"
