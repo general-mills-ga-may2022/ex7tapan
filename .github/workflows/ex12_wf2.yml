@@ -10,7 +10,7 @@ on:
   workflow_run:
     workflows: ["dispatch workflow"]
     type:
-      - complete
+      - completed
 jobs:
   say_hi:
     runs-on: ubuntu-latest
