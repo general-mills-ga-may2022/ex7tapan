@@ -5,5 +5,5 @@ example-job:
         with:
           name: output-log-file
       - shell: bash
-        run: |
-         	ls output-log-file
+        run: | ls output-log-file
+         	
